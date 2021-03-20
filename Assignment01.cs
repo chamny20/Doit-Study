@@ -22,8 +22,16 @@ namespace doit_study_homework_template
                 int res = 0;
                 
                 //res에 num01과 num02 중에서 더 큰 값을 저장해주세요.(int 형)
-                //여기에 코드를 작성해주세요.
-
+        
+                if (num01 > num02) 
+                    res = num01;
+                if (num01 < num02)
+                    res = num02; 
+                if ( num01 == num02)
+                    res = num01;
+                
+                
+                //Console.WriteLine(res);
                 results.Add(res);
             }
 

@@ -18,14 +18,19 @@ namespace doit_study_homework_template
 
             foreach (TestCase data in inputs){
                 var numArr = data.numArr;
-                var res = 0;
+                var res = numArr[0];
 
                 //res에 배열 numArr 안에서 가장 큰 수를 저장해주세요! (int형)
-                //여기에 코드를 작성해주세요.
-               
+
+                for(int i=0; i<numArr.Length; i++) {
+                    if(res < numArr[i]) {
+                        res = numArr[i];
+                    }
+                   
+                }
+                //Console.WriteLine(res);
                 results.Add(res);
             }
-
             output(results.ToArray());
         }
     }

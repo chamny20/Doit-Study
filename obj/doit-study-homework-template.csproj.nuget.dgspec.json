@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MinShiGee\\Desktop\\doit-study-homework-template\\doit-study-homework-template.csproj": {}
+    "D:\\DoitStudy\\doit-study-homework-template\\doit-study-homework-template.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MinShiGee\\Desktop\\doit-study-homework-template\\doit-study-homework-template.csproj": {
+    "D:\\DoitStudy\\doit-study-homework-template\\doit-study-homework-template.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MinShiGee\\Desktop\\doit-study-homework-template\\doit-study-homework-template.csproj",
+        "projectUniqueName": "D:\\DoitStudy\\doit-study-homework-template\\doit-study-homework-template.csproj",
         "projectName": "doit-study-homework-template",
-        "projectPath": "C:\\Users\\MinShiGee\\Desktop\\doit-study-homework-template\\doit-study-homework-template.csproj",
-        "packagesPath": "C:\\Users\\MinShiGee\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MinShiGee\\Desktop\\doit-study-homework-template\\obj\\",
+        "projectPath": "D:\\DoitStudy\\doit-study-homework-template\\doit-study-homework-template.csproj",
+        "packagesPath": "C:\\Users\\LG-User\\.nuget\\packages\\",
+        "outputPath": "D:\\DoitStudy\\doit-study-homework-template\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MinShiGee\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\LG-User\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
