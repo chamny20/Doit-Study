@@ -8,26 +8,24 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\MinShiGee\\.nuget\\packages\\": {}
+    "C:\\Users\\LG-User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MinShiGee\\Desktop\\StudentManager\\StudentManager.csproj",
+      "projectUniqueName": "D:\\DoitStudy\\doit-study-hw-6\\doit-study-homework-template\\StudentManager.csproj",
       "projectName": "StudentManager",
-      "projectPath": "C:\\Users\\MinShiGee\\Desktop\\StudentManager\\StudentManager.csproj",
-      "packagesPath": "C:\\Users\\MinShiGee\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MinShiGee\\Desktop\\StudentManager\\obj\\",
+      "projectPath": "D:\\DoitStudy\\doit-study-hw-6\\doit-study-homework-template\\StudentManager.csproj",
+      "packagesPath": "C:\\Users\\LG-User\\.nuget\\packages\\",
+      "outputPath": "D:\\DoitStudy\\doit-study-hw-6\\doit-study-homework-template\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MinShiGee\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\LG-User\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

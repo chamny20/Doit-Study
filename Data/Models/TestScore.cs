@@ -7,15 +7,15 @@ namespace StudentManager.Data.Models
     {
         public string scoreId{get; set;}
         [Required] 
-        /*[code]*/
+        [StringLength(4)]
         public string studentId{get; set;} = "0000";
         [Required]
         public SubjectId subjectId{get; set;} = SubjectId.Etc;
         [Required]
-        /*[code]*/
+        [Range(0,100)]
         public float score {get; set;} = 0f;
         [Required]
-        /*[code]*/
+        [Range(1000,9999)]
         public int semester {get; set;} = 2101;
 
         public TestScore(
