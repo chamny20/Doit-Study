@@ -49,6 +49,7 @@
         student = await http.GetFromJsonAsync<Student>($"https://localhost:5001/api/students/studentId={studentId}");
         
         // testScoreList에 studentId를 가진 testScore를 구별하여 저장하기.
+        testScoreList testscorelist = student.id();
 
         await base.OnInitializedAsync();
     }
