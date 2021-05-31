@@ -49,13 +49,15 @@
         student = await http.GetFromJsonAsync<Student>($"https://localhost:5001/api/students/studentId={studentId}");
         
         // testScoreList에 studentId를 가진 testScore를 구별하여 저장하기.
-        testScoreList testscorelist = student.id();
+        await LoadTestScoresListAsync();
 
         await base.OnInitializedAsync();
     }
     private async Task RemoveTestScore(string id){
         
         // API에 scoreId의 TestScore를 제거하는 메소드를 구현.
+        await http.DeleteAsync($"https://localhost:5001/api/TestScores/testscoreid={id}");
+        await LoadTestScoresListAsync();
 
     }
     private async void PrintDescriptionAsync(ResultCode code){
